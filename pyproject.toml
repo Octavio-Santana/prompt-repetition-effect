@@ -1,0 +1,26 @@
+[project]
+name = "prompt-repetition-effect"
+version = "0.1.0"
+description = "A reproducible study on the prompt repetition effect in small language models, analyzing accuracy gains, McNemar statistical significance, latency impact, and token cost trade-offs."
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "accelerate>=1.12.0",
+    "bitsandbytes>=0.49.2",
+    "datasets>=4.5.0",
+    "evaluate>=0.4.6",
+    "peft>=0.18.1",
+    "protobuf>=6.33.5",
+    "scikit-learn>=1.8.0",
+    "sentence-transformers>=5.2.2",
+    "sentencepiece>=0.2.1",
+    "tiktoken>=0.12.0",
+    "torch>=2.10.0",
+    "torchvision>=0.25.0",
+    "transformers>=5.0.0",
+    "ipykernel>=7.2.0",
+    "statsmodels>=0.14.6",
+    "jupyterlab>=4.5.4",
+    "notebook>=7.5.3",
+    "ipywidgets>=8.1.8",
+]
